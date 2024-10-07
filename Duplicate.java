@@ -18,6 +18,6 @@ public class Duplicate {
         for (int x: set) {
             arr[j++] = x;
         }
-        return k;
+        return k;  
     }
 }
