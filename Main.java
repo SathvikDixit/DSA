@@ -1,5 +1,3 @@
-import java.util.*;
-
 public class Main {
     public static int[] twoSum(int n, int []arr, int target) {
         int[] ans = new int[2];
