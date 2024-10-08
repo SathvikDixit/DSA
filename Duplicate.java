@@ -1,7 +1,7 @@
 import java.util.*;
 public class Duplicate {
     public static void main(String[] args) {   
-        int arr[] = {1,1,2,2,2,3,3,5};
+        int arr[] = {1,1,2,2,2,3,3,5,5,7,8,9,9};
         int k = removeDuplicates(arr);
         System.out.println("The array after removing duplicate elements is ");
         for (int i = 0; i < k; i++) {
