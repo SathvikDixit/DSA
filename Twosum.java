@@ -1,4 +1,4 @@
-public class Main {
+public class Twosum {
     public static int[] twoSum(int n, int []arr, int target) {
         int[] ans = new int[2];
         ans[0] = ans[1] = -1;
