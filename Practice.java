@@ -1,3 +1,5 @@
+import  java.util.Scanner;
+
 public class Practice {
     public static void main(String[] args) {
 
@@ -86,8 +88,28 @@ public class Practice {
         // String name2 = new String("sathvik dixit");
         // System.out.println(name.equalsIgnoreCase(name2));
 
-        String naam = "Sathvik ";
-        System.out.println(naam.replace(" ", " Dixit"));
+        // String naam = "Sathvik VP";
+        // System.out.println(naam.replace(" ", " Dixit"));
+        // System.out.println(naam.contains("VP"));
+
+
+
+
+
+
+
+        // USER INPUT
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("What is your name?");
+        String name = scanner.nextLine();
+        System.out.println("Your name is "+name+".");
+        scanner.close();
+
+        // Scanner input = new Scanner (System.in);
+        // System.out.println("Enter you age ");
+        // int age = input.nextInt();
+        // System.out.println("You are "+ age +" years old.");
 
     }
 }
