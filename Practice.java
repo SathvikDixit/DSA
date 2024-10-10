@@ -95,7 +95,14 @@ public class Practice {
         Scanner first = new Scanner(System.in);
         System.out.print("What is your name? ");
         String name = first.nextLine();
-        System.out.printf("Hey %s , how are you.", name);
+        System.out.printf("Hey %s , how old are you: ", name);
+        int age = first.nextInt();
+        if(age >= 18) {
+           System.out.printf("You are allowed.");
+        }
+        else {
+            System.out.println("Beter luck next time bro, you are not allowed , so get the fuck outah here ");
+        }
         first.close();
 
     }
