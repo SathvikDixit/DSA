@@ -21,5 +21,4 @@ public class Main {
         System.out.println("This is the answer for variant 2: [" + ans[0] + ", "
                            + ans[1] + "]");
     }
-
 }
