@@ -1,4 +1,3 @@
-import java.util.Scanner;
 
 public class Practice {
     public static void main(String[] args) {
@@ -29,6 +28,12 @@ public class Practice {
         // number /= 5;
         // System.out.println(number);
 
+
+
+
+
+
+
         // Arithmetic Operators
 
         // int num1 = 15;
@@ -40,6 +45,11 @@ public class Practice {
         // System.out.println(num1 > num2);
         // System.out.println(num1 >= num2);
 
+
+
+
+
+
         // Logical Operator's
 
         // int age = 45;
@@ -47,6 +57,15 @@ public class Practice {
         // boolean isStudent = true;
         // boolean isMember = false;
         // System.out.println(isStudent || isMember); // OR operator
+
+
+
+
+
+
+
+
+
 
         // STRING'S
 
@@ -78,6 +97,14 @@ public class Practice {
         // System.out.println(naam.replace(" ", " Dixit"));
         // System.out.println(naam.contains("VP"));
 
+
+
+
+
+
+
+
+
         // USER INPUT
 
         // Scanner scanner = new Scanner(System.in);
@@ -92,24 +119,30 @@ public class Practice {
         // System.out.println("You are "+ age +" years old.");
         // input.close();
 
-        Scanner first = new Scanner(System.in);
-        System.out.print("What is your name? ");
-        String name = first.nextLine();
-        System.out.printf("Hey %s , how old are you: ", name);
-        int age = Integer.parseInt(first.nextLine());
-        // first.nextLine(); 
+        // Scanner first = new Scanner(System.in);
+        // System.out.print("What is your name? ");
+        // String name = first.nextLine();
+        // System.out.printf("Hey %s , how old are you: ", name);
+        // int age = Integer.parseInt(first.nextLine());
+        // // first.nextLine(); 
         
-        if(age >= 18) {
-           System.out.printf("You are allowed.");
-        }
-        else {
-            System.out.println("Beter luck next time bro, you are not allowed , so get the fuck outah here ");
-        }
-        String reply = first.nextLine();
-        System.out.printf("get the fcuk out %s ", reply); 
+        // if(age >= 18) {
+        //    System.out.printf("You are allowed.");
+        // }
+        // else {
+        //     System.out.println("Beter luck next time bro, you are not allowed , so get the fuck outah here ");
+        // }
+        // String reply = first.nextLine();
+        // System.out.printf("get the fcuk out %s ", reply); 
+        // first.close();
 
 
-        first.close();
+
+
+
+        // CONDITIONAL STATEMENTS
+        
+
 
     }
 }
