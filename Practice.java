@@ -79,12 +79,15 @@ public class Practice {
         // String hesaru2 = new String("Sathvik dixit");
         // System.out.println(hesaru.length());
         // System.out.println(hesaru.toUpperCase());
-        // System.out.println(hesaru.toUpperCase());
+        // System.out.println(hesaru.toLowerCase());
         // System.out.println(hesaru2 == hesaru);
 
-        String name = new String("Sathvik Dixit");
-        String name2 = new String("sathvik dixit");
-        System.out.println(name.equalsIgnoreCase(name2));
+        // String name = new String("Sathvik Dixit");
+        // String name2 = new String("sathvik dixit");
+        // System.out.println(name.equalsIgnoreCase(name2));
+
+        String naam = "Sathvik ";
+        System.out.println(naam.replace(" ", " Dixit"));
 
     }
 }
