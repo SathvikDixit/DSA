@@ -96,6 +96,7 @@ public class Practice {
         System.out.print("What is your name? ");
         String name = first.nextLine();
         System.out.printf("Hey %s , how are you.", name);
+        first.close();
 
     }
 }
