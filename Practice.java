@@ -15,10 +15,65 @@ public class Practice {
         // }
 
 
-        int num1 = 16;
-        int num2 = 9;
 
-        System.out.println(num1 + num2);
-        System.out.println(num1 % num2);
+
+        // int num1 = 16;
+        // int num2 = 9;
+        // System.out.println(num1 + num2);
+        // System.out.println(num1 % num2);
+
+
+
+        // int number = 10;
+        // number += 5;
+        // number -= 5;
+        // number *= 5;
+        // number %= 3;
+        // number /= 5;
+        // System.out.println(number);
+
+
+
+        // Arithmetic Operators
+
+        // int num1 = 15;
+        // int num2 = 12;
+        // System.out.println(num1 == num2);
+        // System.out.println(num1 != num2);
+        // System.out.println(num1 < num2);
+        // System.out.println(num1 <= num2);
+        // System.out.println(num1 > num2);
+        // System.out.println(num1 >= num2);
+
+
+
+        // Logical Operator's
+
+        // int age = 45;
+        // System.out.println(age >= 18 && age <= 45);           // AND operator 
+        // boolean isStudent = true;
+        // boolean isMember = false;
+        // System.out.println(isStudent || isMember);           // OR operator
+
+
+
+
+
+        // STRING'S
+
+        // String name = "Sathvik";
+        // String name2 = new String("Sathvik");
+        // System.out.println(name2 == name);
+
+
+
+        String name = "Sathvik Dixit";
+        int age = 20;
+        String company = "asdf";
+        double gpa = 9.1;
+        char grade = 'A';
+        String formattedString = String.format("Hey my name is %s I am %d years old, I work in %s my gpa is %f and grade is %c.",name,age,company,gpa,grade);
+        System.out.println(formattedString);
+
     }
 }
