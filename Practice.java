@@ -96,13 +96,19 @@ public class Practice {
         System.out.print("What is your name? ");
         String name = first.nextLine();
         System.out.printf("Hey %s , how old are you: ", name);
-        int age = first.nextInt();
+        int age = Integer.parseInt(first.nextLine());
+        // first.nextLine(); 
+        
         if(age >= 18) {
            System.out.printf("You are allowed.");
         }
         else {
             System.out.println("Beter luck next time bro, you are not allowed , so get the fuck outah here ");
         }
+        String reply = first.nextLine();
+        System.out.printf("get the fcuk out %s ", reply); 
+
+
         first.close();
 
     }
