@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class Practice {
     public static void main(String[] args) {
 
@@ -141,41 +139,89 @@ public class Practice {
 
 
 
+
         // CONDITIONAL STATEMENTS
-        Scanner calci = new Scanner(System.in);
-        System.out.print("Enter the first number: ");
-        double num1 = calci.nextDouble();
+    //     Scanner calci = new Scanner(System.in);
+    //     System.out.print("Enter the first number: ");
+    //     double num1 = calci.nextDouble();
        
-        System.out.print("Enter the second number: ");
-        double num2 = calci.nextDouble();
-        calci.nextLine();
+    //     System.out.print("Enter the second number: ");
+    //     double num2 = calci.nextDouble();
+    //     calci.nextLine();
 
-        System.out.print("Enter the operation to be performed(sum,sub,multiply,div): ");
-        String operator = calci.nextLine();
+    //     System.out.print("Enter the operation to be performed(sum,sub,multiply,div): ");
+    //     String operator = calci.nextLine();
 
-        if (operator.equals("sum")) {
-            System.out.printf("%f + %f = %f",num1 , num2 , num1+num2);
-        }
-        else if (operator.equals("sub")) {
-            System.out.printf("%f - %f = %f",num1 , num2 , num1-num2);
-        }
-        else if (operator.equals("multiply")) {
-            System.out.printf("%f * %f = %f",num1 , num2 , num1*num2);
-        }
-        else if (operator.equals("div")) {
-            if(num2 == 0) {
-                System.out.printf("%d cannot be divided with zero",num1);
-            }
-            else{
-                System.out.printf("%f / %f = %f",num1 , num2 , num1/num2);
-            }
-        }
-       else {
-        System.out.println("Enter the valid operator.");
-       }
+    //     if (operator.equals("sum")) {
+    //         System.out.printf("%f + %f = %f",num1 , num2 , num1+num2);
+    //     }
+    //     else if (operator.equals("sub")) {
+    //         System.out.printf("%f - %f = %f",num1 , num2 , num1-num2);
+    //     }
+    //     else if (operator.equals("multiply")) {
+    //         System.out.printf("%f * %f = %f",num1 , num2 , num1*num2);
+    //     }
+    //     else if (operator.equals("div")) {
+    //         if(num2 == 0) {
+    //             System.out.printf("%d cannot be divided with zero",num1);
+    //         }
+    //         else{
+    //             System.out.printf("%f / %f = %f",num1 , num2 , num1/num2);
+    //         }
+    //     }
+    //    else {
+    //     System.out.println("Enter the valid operator.");
+    //    }
+    //     calci.close();
 
-        calci.close();
 
 
+
+
+
+
+    // SWITCH CASE STATEMENTS
+        // Scanner calci = new Scanner(System.in);
+        // System.out.print("Enter the first number: ");
+        // double num1 = calci.nextDouble();
+       
+        // System.out.print("Enter the second number: ");
+        // double num2 = calci.nextDouble();
+        // calci.nextLine();
+
+        // System.out.print("Enter the operation to be performed(sum,sub,multiply,div): ");
+        // String operator = calci.nextLine();
+
+        // switch (operator) {
+        //     case "sum":
+        //     System.out.printf("%f + %f = %f",num1 , num2 , num1+num2);
+        //     break;
+        //     case "sub":
+        //     System.out.printf("%f - %f = %f",num1 , num2 , num1-num2);
+        //     break;
+        //     case "multiply":
+        //     System.out.printf("%f * %f = %f",num1 , num2 , num1*num2);
+        //     break;
+        //     case "div":
+        //         if(num2 == 0) {
+        //             System.out.printf("%d cannot be divided with zero",num1);
+        //         }
+        //         else{
+        //             System.out.printf("%f / %f = %f",num1 , num2 , num1/num2);
+        //         }
+        //     break;
+
+        //     default:
+        //     System.out.printf("%s is invalid operator.",operator);
+        // }
+        // calci.close();
+
+
+
+
+
+
+
+        
     }
 }
