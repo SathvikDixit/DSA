@@ -1,3 +1,10 @@
+
+import java.util.Arrays;
+
+
+
+
+
 public class Practice {
     public static void main(String[] args) {
 
@@ -222,6 +229,19 @@ public class Practice {
 
 
         // ARRAY'S
+        char vowels[] = {'e','a','o','u','i'};
+        // System.out.println(Arrays.toString(vowels));
+
+        // System.out.println(vowels.length);
+
+        // Arrays.sort(vowels);
+        // System.out.println(Arrays.toString(vowels));
+
+        char key = 'u';
+        int findItemIndex = Arrays.binarySearch(vowels, key);
+        System.out.println(Arrays.toString(vowels));
+        System.out.println(findItemIndex);
+
         
 
     }
