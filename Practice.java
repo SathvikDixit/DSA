@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 public class Practice {
     public static void main(String[] args) {
@@ -141,7 +142,34 @@ public class Practice {
 
 
         // CONDITIONAL STATEMENTS
-        
+        Scanner calci = new Scanner(System.in);
+        System.out.print("Enter the first number: ");
+        double num1 = calci.nextDouble();
+       
+        System.out.print("Enter the second number: ");
+        double num2 = calci.nextDouble();
+        calci.nextLine();
+
+        System.out.print("Enter the operation to be performed(sum,sub,multiply,divide,modulus): ");
+        String operator = calci.nextLine();
+
+        if (operator.equals("sum")) {
+            System.out.printf("%f + %f = %f",num1 , num2 , num1+num2);
+        }
+        else if (operator.equals("sub")) {
+            System.out.printf("%f - %f = %f",num1 , num2 , num1-num2);
+        }
+        else if (operator.equals("multiply")) {
+            System.out.printf("%f * %f = %f",num1 , num2 , num1*num2);
+        }
+        else if (operator.equals("divide")) {
+            System.out.printf("%f / %f = %f",num1 , num2 , num1/num2);
+        }
+       else {
+        System.out.println("Enter the valid operator.");
+       }
+
+        calci.close();
 
 
     }
