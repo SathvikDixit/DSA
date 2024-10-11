@@ -1,9 +1,4 @@
-
 import java.util.Arrays;
-
-
-
-
 
 public class Practice {
     public static void main(String[] args) {
@@ -237,12 +232,17 @@ public class Practice {
         // Arrays.sort(vowels);
         // System.out.println(Arrays.toString(vowels));
 
-        char key = 'u';
-        int findItemIndex = Arrays.binarySearch(vowels, key);
-        System.out.println(Arrays.toString(vowels));
-        System.out.println(findItemIndex);
+        // char key = 'u';
+        // int findItemIndex = Arrays.binarySearch(vowels, key);
+        // System.out.println(Arrays.toString(vowels));
+        // System.out.println(findItemIndex);
 
-        
+
+        // USING STARTING AND ENDING INDEX
+        int startingIndex = 1;  
+        int endingIndex = 4;
+        Arrays.fill(vowels,startingIndex,endingIndex, 'x');
+        System.out.println(Arrays.toString(vowels));
 
     }
 }
