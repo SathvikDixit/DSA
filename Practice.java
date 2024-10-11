@@ -150,7 +150,7 @@ public class Practice {
         double num2 = calci.nextDouble();
         calci.nextLine();
 
-        System.out.print("Enter the operation to be performed(sum,sub,multiply,divide,modulus): ");
+        System.out.print("Enter the operation to be performed(sum,sub,multiply,div): ");
         String operator = calci.nextLine();
 
         if (operator.equals("sum")) {
@@ -162,8 +162,13 @@ public class Practice {
         else if (operator.equals("multiply")) {
             System.out.printf("%f * %f = %f",num1 , num2 , num1*num2);
         }
-        else if (operator.equals("divide")) {
-            System.out.printf("%f / %f = %f",num1 , num2 , num1/num2);
+        else if (operator.equals("div")) {
+            if(num2 == 0) {
+                System.out.printf("%d cannot be divided with zero",num1);
+            }
+            else{
+                System.out.printf("%f / %f = %f",num1 , num2 , num1/num2);
+            }
         }
        else {
         System.out.println("Enter the valid operator.");
