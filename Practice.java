@@ -1,4 +1,6 @@
+
 import java.util.Arrays;
+
 
 public class Practice {
     public static void main(String[] args) {
@@ -224,7 +226,8 @@ public class Practice {
 
 
         // ARRAY'S
-        char vowels[] = {'e','a','o','u','i'};
+        // char vowels[] = {'e','a','o','u','i'};
+
         // System.out.println(Arrays.toString(vowels));
 
         // System.out.println(vowels.length);
@@ -239,10 +242,20 @@ public class Practice {
 
 
         // USING STARTING AND ENDING INDEX
-        int startingIndex = 1;  
-        int endingIndex = 4;
-        Arrays.fill(vowels,startingIndex,endingIndex, 'x');
-        System.out.println(Arrays.toString(vowels));
+        // int startingIndex = 1;  
+        // int endingIndex = 4;
+        // Arrays.fill(vowels,startingIndex,endingIndex, 'x');
+        // System.out.println(Arrays.toString(vowels));
+
+
+        int numbers[] = {1,2,4,7,8};
+        // int copyofNumbers[] = numbers;
+        int copyOfNumbers[] = Arrays.copyOf(numbers, numbers.length);
+
+        Arrays.fill(numbers,0);
+
+        System.out.println(Arrays.toString(numbers));
+        System.out.println(Arrays.toString(copyOfNumbers));
 
     }
 }
