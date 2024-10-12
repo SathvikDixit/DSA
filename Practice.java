@@ -256,5 +256,36 @@ public class Practice {
         // System.out.println(Arrays.toString(numbers));
         // System.out.println(Arrays.toString(copyOfNumbers));
 
+
+
+
+
+        // PRINTING TABLES USING FOR LOOP 
+
+        // int number = 10;
+        // for(int mul = 1; mul<=10;mul++) {
+        //     System.out.printf("%d X %d = %d \n",number,mul,number*mul);
+        // }
+
+        // for (int number = 1; number<=10;number++) {
+        //     for (int mul = 1; mul <=10;mul++) {
+        //         System.out.printf("%d X %d = %d\n",number,mul,number*mul);
+        //     }
+        // }
+
+
+        // Printing even number's between 1 ot 100
+        // for (int num = 1; num <= 100; num++) {
+        //     if (num % 2 == 0) 
+        //     System.out.println(num);
+        // }
+
+
+        // Printing odd number's between 1 to 100
+        // for (int num = 0; num <= 100; num++) {
+        //     if (num % 2 == 1) 
+        //     System.out.println(num);
+        // }
+
     }
 }
