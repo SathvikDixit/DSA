@@ -1,7 +1,6 @@
 
 
 
-
 public class Practice {
     public static void main(String[] args) {
 
@@ -305,5 +304,14 @@ public class Practice {
         //     numbers.set(numbers.indexOf(number),number*2);
         // });
         // System.out.println("After: "+numbers.toString());
+
+
+
+
+
+
+        // HASH MAP'S
+        
+
     }
 }
