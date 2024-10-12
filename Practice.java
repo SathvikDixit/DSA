@@ -1,5 +1,4 @@
 
-import java.util.Arrays;
 
 
 public class Practice {
@@ -248,14 +247,14 @@ public class Practice {
         // System.out.println(Arrays.toString(vowels));
 
 
-        int numbers[] = {1,2,4,7,8};
+        // int numbers[] = {1,2,4,7,8};
         // int copyofNumbers[] = numbers;
-        int copyOfNumbers[] = Arrays.copyOf(numbers, numbers.length);
+        // int copyOfNumbers[] = Arrays.copyOf(numbers, numbers.length);
 
-        Arrays.fill(numbers,0);
+        // Arrays.fill(numbers,0);
 
-        System.out.println(Arrays.toString(numbers));
-        System.out.println(Arrays.toString(copyOfNumbers));
+        // System.out.println(Arrays.toString(numbers));
+        // System.out.println(Arrays.toString(copyOfNumbers));
 
     }
 }
