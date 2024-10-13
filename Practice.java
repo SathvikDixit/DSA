@@ -321,5 +321,6 @@ public class Practice {
 
         System.out.println(examScore.toString());
         System.out.println(examScore.get("Kannada"));
+        System.out.println(examScore.containsKey("Kannada"));
     }
 }
