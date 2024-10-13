@@ -317,10 +317,12 @@ public class Practice {
         examScore.put("Chemistry", 88);
         examScore.put("Physics", 92);
 
-        examScore.replace("Physics", 99);
-
+        examScore.forEach((subject, score) -> {
+            System.out.println(subject + "-" + score);
+            });
         System.out.println(examScore.toString());
         System.out.println(examScore.get("Kannada"));
-        System.out.println(examScore.containsKey("Kannada"));
+        System.out.println(examScore.containsKey("Hindi"));
+        System.out.println(examScore.containsValue(Integer.valueOf(100)));
     }
 }
