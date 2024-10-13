@@ -1,4 +1,4 @@
-
+import java.util.HashMap;
 
 
 public class Practice {
@@ -311,7 +311,15 @@ public class Practice {
 
 
         // HASH MAP'S
-        
+        HashMap<String,Integer> examScore = new HashMap<String,Integer>();
+        examScore.put("Kannada", 100);
+        examScore.put("English", 91);
+        examScore.put("Chemistry", 88);
+        examScore.put("Physics", 92);
 
+        examScore.replace("Physics", 99);
+
+        System.out.println(examScore.toString());
+        System.out.println(examScore.get("Kannada"));
     }
 }
