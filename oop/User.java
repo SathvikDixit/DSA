@@ -1,4 +1,5 @@
 package oop;
+
 import java.time.LocalDate;
 
 public class User {
