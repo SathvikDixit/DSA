@@ -26,11 +26,10 @@ class MergeSortedArray {
         int m = 3; // Number of elements initially in nums1
         
         int[] nums2 = {2, 5, 6};
-        int n = 3; // Number of elements in nums2
+        int n = 3;
 
         solution.merge(nums1, m, nums2, n);
 
-        // Print the result after merging
         for (int num : nums1) {
             System.out.print(num + " ");
         }
