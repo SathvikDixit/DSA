@@ -14,7 +14,6 @@ class NextPermutation {
             }
             swap(nums, i, j);
         }
-
         reverse(nums, i + 1, nums.length - 1);
     }
 
