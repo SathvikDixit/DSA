@@ -1,18 +1,18 @@
 class MergeSortedArray {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
-        int midx = m - 1;
-        int nidx = n - 1; 
-        int right = m + n - 1; 
+        int left = m - 1;
+        int right = n - 1; 
+        int index = m + n - 1; 
 
-        while (nidx >= 0) {
-            if (midx >= 0 && nums1[midx] > nums2[nidx]) {
-                nums1[right] = nums1[midx]; 
-                midx--; 
+        while (right >= 0) {
+            if (left >= 0 && nums1[left] > nums2[right]) {
+                nums1[index] = nums1[left]; 
+                left--; 
             } else {
-                nums1[right] = nums2[nidx]; 
-                nidx--; 
+                nums1[index] = nums2[right]; 
+                right--; 
             }
-            right--; 
+            index--; 
         }        
     }
 
