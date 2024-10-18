@@ -34,13 +34,9 @@ class NextPermutation {
 
     public static void main(String[] args) {
         int[] nums = {1, 2, 3};
-        
         NextPermutation nextPerm = new NextPermutation();
-        
         System.out.println("Before: " + Arrays.toString(nums));
-        
         nextPerm.nextPermutation(nums);
-        
         System.out.println("After: " + Arrays.toString(nums));
     }
 }
