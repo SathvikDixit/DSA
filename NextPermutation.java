@@ -39,7 +39,3 @@ class NextPermutation {
         System.out.println("After: " + Arrays.toString(nums));
     }
 }
-
-
-
-
