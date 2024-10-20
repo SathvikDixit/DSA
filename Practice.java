@@ -323,8 +323,9 @@ public class Practice {
             // System.out.println(subject + "-" + score);
             examScore.replace(subject, score - 10);
             });
-            
-        System.out.println(examScore.toString());
+        
+        System.out.println(examScore.toString());            
+        
         // System.out.println(examScore.get("Kannada"));
         // System.out.println(examScore.containsKey("Hindi"));
         // System.out.println(examScore.containsValue(Integer.valueOf(100)));
