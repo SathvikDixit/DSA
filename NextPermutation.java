@@ -11,7 +11,7 @@ class Solution {
         if (i >= 0) {
             int j = nums.length - 1;
             // Find the first element that is greater than nums[i]
-            while (nums[j] <= nums[i]) {
+            while (j >= 0 && nums[j] <= nums[i]) {
                 j--;
             }
             // Swap the found elements
