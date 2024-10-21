@@ -5,6 +5,7 @@ class TwoStringEqual {
         return s1.equals(s2);
     }
 
+    // makeString is a healper method here
     String makeString(String[] word) { 
         StringBuilder sb = new StringBuilder();
         for (String s : word) {
