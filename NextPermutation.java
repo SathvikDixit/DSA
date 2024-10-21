@@ -1,20 +1,31 @@
-import java.util.Arrays;
-
-class NextPermutation {
+class Solution {
     public void nextPermutation(int[] nums) {
         int i = nums.length - 2;
+        
+        // Find the first decreasing element from the right
         while (i >= 0 && nums[i] >= nums[i + 1]) {
             i--;
         }
 
+        // If we found a decreasing element
         if (i >= 0) {
             int j = nums.length - 1;
-            while (j >= 0 && nums[i] >= nums[j]) {
+            // Find the first element that is greater than nums[i]
+            while (nums[j] <= nums[i]) {
                 j--;
             }
+            // Swap the found elements
             swap(nums, i, j);
         }
-        reverse(nums, i + 1, nums.length - 1);
+
+        // Reverse the sequence from i+1 to the end of the array
+        int start = i + 1;
+        int end = nums.length - 1;
+        while (start < end) {
+            swap(nums, start, end);
+            start++;
+            end--;
+        }
     }
 
     public static void swap(int[] nums, int a, int b) {
@@ -23,19 +34,14 @@ class NextPermutation {
         nums[b] = temp;
     }
 
-    public static void reverse(int[] nums, int start, int end) {
-        while (start < end) {
-            swap(nums, start, end);
-            start++;
-            end--;
-        }
-    }
-
+    // You can add a main method to test the function
     public static void main(String[] args) {
+        Solution solution = new Solution();
         int[] nums = {1, 2, 3};
-        NextPermutation nextPerm = new NextPermutation();
-        System.out.println("Before: " + Arrays.toString(nums));
-        nextPerm.nextPermutation(nums);
-        System.out.println("After: " + Arrays.toString(nums));
+        solution.nextPermutation(nums);
+        // Output the result
+        for (int num : nums) {
+            System.out.print(num + " ");
+        }
     }
 }
