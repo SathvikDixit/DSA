@@ -20,7 +20,7 @@ class Solution {
 
         // Reverse the sequence from i+1 to the end of the array
         int start = i + 1;
-        int end = nums.length - 1;
+        int end = nums.length - 1; 
         while (start < end) {
             swap(nums, start, end);
             start++;
