@@ -29,6 +29,5 @@ class TwoStringEqual {
         String[] word5 = {"a", "b", "c"};
         String[] word6 = {"ab", "c"};
         System.out.println(solution.arrayStringsAreEqual(word5, word6)); 
-
     }
 }
