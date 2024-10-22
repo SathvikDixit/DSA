@@ -258,6 +258,7 @@ public class Practice {
 
 
 
+        
 
 
         // PRINTING TABLES USING FOR LOOP 
@@ -286,6 +287,8 @@ public class Practice {
         //     if (num % 2 == 1) 
         //     System.out.println(num);
         // }
+
+
 
 
         
