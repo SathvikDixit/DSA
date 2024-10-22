@@ -140,6 +140,8 @@ public class Practice {
 
 
 
+        
+
 
 
 
@@ -176,6 +178,7 @@ public class Practice {
     //     System.out.println("Enter the valid operator.");
     //    }
     //     calci.close();
+
 
 
 
@@ -258,7 +261,7 @@ public class Practice {
 
 
 
-        
+
 
 
         // PRINTING TABLES USING FOR LOOP 
