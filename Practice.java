@@ -185,7 +185,6 @@ public class Practice {
 
 
 
-
     // SWITCH CASE STATEMENTS
         // Scanner calci = new Scanner(System.in);
         // System.out.print("Enter the first number: ");
@@ -227,6 +226,7 @@ public class Practice {
 
 
 
+
         // ARRAY'S
         // char vowels[] = {'e','a','o','u','i'};
 
@@ -261,6 +261,7 @@ public class Practice {
 
 
 
+        
 
 
 
