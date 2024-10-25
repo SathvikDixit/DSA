@@ -1,4 +1,3 @@
-import java.util.HashMap;
 
 
 public class Practice {
@@ -321,22 +320,46 @@ public class Practice {
 
 
         // HASH MAP'S
-        HashMap<String,Integer> examScore = new HashMap<String,Integer>();
-        examScore.put("Kannada", 100);
-        examScore.put("English", 91);
-        examScore.put("Chemistry", 88);
-        examScore.put("Physics", 92);
+        // HashMap<String,Integer> examScore = new HashMap<String,Integer>();
+        // examScore.put("Kannada", 100);
+        // examScore.put("English", 91);
+        // examScore.put("Chemistry", 88);
+        // examScore.put("Physics", 92);
 
-        examScore.forEach((subject, score) -> {
-            // System.out.println(subject + "-" + score);
-            examScore.replace(subject, score - 10);
-            });
+        // examScore.forEach((subject, score) -> {
+        //      System.out.println(subject + "-" + score);
+        //     examScore.replace(subject, score - 10);
+        //     });
         
-        System.out.println(examScore.toString());            
+        // System.out.println(examScore.toString());            
         
         // System.out.println(examScore.get("Kannada"));
         // System.out.println(examScore.containsKey("Hindi"));
         // System.out.println(examScore.containsValue(Integer.valueOf(100)));
+
+
+
+
+
+
+
+
+
+        // NEW / ENHANCED FOR LOOP
+
+        int arr[] = new int[4];
+        arr[0] = 3;
+        arr[1] = 8;
+        arr[2] = 4;
+        arr[3] = 7;
+
+        for (int n : arr){
+            System.out.println(n);      // This can print only the array elements not theitr index. If you want to print indices you have to use the regular for loop
+        }
+        System.out.println("\n");
+        for (int i = 0 ; i<arr.length; i++) {
+            System.out.println(i);                     // This prints out the indices of the Array
+        }
 
     }
 }
