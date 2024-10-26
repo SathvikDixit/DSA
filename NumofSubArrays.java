@@ -19,6 +19,7 @@ public class NumOfSubArrays {
             }
     
     
+    
 
     // You can add a main method to test the code if needed
     public static void main(String[] args) {
