@@ -24,7 +24,7 @@ class Solution {
         while (start < end) {
             swap(nums, start, end);
             start++;
-            end--;
+            end--;             
         }
     }
 
@@ -33,6 +33,7 @@ class Solution {
         nums[a] = nums[b];
         nums[b] = temp;
     }
+
 
     // You can add a main method to test the function
     public static void main(String[] args) {
@@ -45,3 +46,7 @@ class Solution {
         }
     }
 }
+
+
+
+
