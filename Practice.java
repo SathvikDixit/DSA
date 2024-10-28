@@ -1,5 +1,3 @@
-
-
 public class Practice {
     public static void main(String[] args) {
 
@@ -298,7 +296,7 @@ public class Practice {
 
 
         
-        
+
 
 
         // ARRAY LIST    must import ArrayList
