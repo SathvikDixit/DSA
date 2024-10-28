@@ -184,6 +184,7 @@ public class Practice {
 
 
 
+
     // SWITCH CASE STATEMENTS
         // Scanner calci = new Scanner(System.in);
         // System.out.print("Enter the first number: ");
@@ -219,6 +220,7 @@ public class Practice {
         //     System.out.printf("%s is invalid operator.",operator);
         // }
         // calci.close();
+
 
 
 
@@ -264,6 +266,7 @@ public class Practice {
 
 
 
+
         // PRINTING TABLES USING FOR LOOP 
 
         // int number = 10;
@@ -294,7 +297,7 @@ public class Practice {
 
 
 
-
+        
         
 
 
@@ -312,7 +315,6 @@ public class Practice {
         //     numbers.set(numbers.indexOf(number),number*2);
         // });
         // System.out.println("After: "+numbers.toString());
-
 
 
 
