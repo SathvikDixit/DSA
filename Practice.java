@@ -180,6 +180,7 @@ public class Practice {
 
     
 
+    
 
 
 
@@ -225,7 +226,6 @@ public class Practice {
 
 
 
-
         // ARRAY'S
         // char vowels[] = {'e','a','o','u','i'};
 
@@ -257,7 +257,6 @@ public class Practice {
 
         // System.out.println(Arrays.toString(numbers));
         // System.out.println(Arrays.toString(copyOfNumbers));
-
 
 
 
@@ -317,7 +316,7 @@ public class Practice {
 
 
 
-        
+
         
 
 
