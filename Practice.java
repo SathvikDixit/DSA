@@ -221,7 +221,6 @@ public class Practice {
 
 
 
-        
 
 
 
@@ -290,7 +289,6 @@ public class Practice {
         //     if (num % 2 == 1) 
         //     System.out.println(num);
         // }
-
 
 
 
