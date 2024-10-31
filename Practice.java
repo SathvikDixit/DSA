@@ -292,7 +292,6 @@ public class Practice {
 
 
 
-        
 
 
 
@@ -310,7 +309,6 @@ public class Practice {
         //     numbers.set(numbers.indexOf(number),number*2);
         // });
         // System.out.println("After: "+numbers.toString());
-
 
 
 
@@ -335,8 +333,6 @@ public class Practice {
         // System.out.println(examScore.get("Kannada"));
         // System.out.println(examScore.containsKey("Hindi"));
         // System.out.println(examScore.containsValue(Integer.valueOf(100)));
-
-
 
 
 
