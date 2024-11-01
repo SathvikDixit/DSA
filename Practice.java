@@ -49,6 +49,7 @@ public class Practice {
 
 
 
+        
 
 
         // Logical Operator's
@@ -58,6 +59,7 @@ public class Practice {
         // boolean isStudent = true;
         // boolean isMember = false;
         // System.out.println(isStudent || isMember); // OR operator
+
 
 
 
@@ -99,7 +101,7 @@ public class Practice {
 
 
 
-        
+
 
 
 
