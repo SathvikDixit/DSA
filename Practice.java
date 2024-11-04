@@ -33,7 +33,6 @@ public class Practice {
 
 
 
-
         // Arithmetic Operators
 
         // int num1 = 15;
@@ -51,7 +50,6 @@ public class Practice {
 
 
 
-
         // Logical Operator's
 
         // int age = 45;
@@ -59,8 +57,6 @@ public class Practice {
         // boolean isStudent = true;
         // boolean isMember = false;
         // System.out.println(isStudent || isMember); // OR operator
-
-
 
 
 
