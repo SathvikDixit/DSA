@@ -31,7 +31,3 @@ class TwoStringEqual {
         System.out.println(solution.arrayStringsAreEqual(word5, word6));
     }
 }
-
-
-
-
