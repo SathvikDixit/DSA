@@ -219,8 +219,6 @@ public class Practice {
 
 
 
-
-
         // ARRAY'S
         // char vowels[] = {'e','a','o','u','i'};
 
@@ -258,8 +256,6 @@ public class Practice {
 
 
 
-
-
         // PRINTING TABLES USING FOR LOOP 
 
         // int number = 10;
@@ -286,7 +282,6 @@ public class Practice {
         //     if (num % 2 == 1) 
         //     System.out.println(num);
         // }
-
 
 
 
@@ -332,7 +327,6 @@ public class Practice {
         // System.out.println(examScore.get("Kannada"));
         // System.out.println(examScore.containsKey("Hindi"));
         // System.out.println(examScore.containsValue(Integer.valueOf(100)));
-
 
 
 
