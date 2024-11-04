@@ -138,7 +138,7 @@ public class Practice {
 
 
 
-        // CONDITIONAL STATEMENTS
+    // CONDITIONAL STATEMENTS
     //     Scanner calci = new Scanner(System.in);
     //     System.out.print("Enter the first number: ");
     //     double num1 = calci.nextDouble();
