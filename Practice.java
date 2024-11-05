@@ -215,8 +215,6 @@ public class Practice {
         // calci.close();
 
 
-
-
         
 
 
