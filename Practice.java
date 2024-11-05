@@ -177,6 +177,8 @@ public class Practice {
 
 
 
+    
+
 
     // SWITCH CASE STATEMENTS
         // Scanner calci = new Scanner(System.in);
@@ -216,6 +218,8 @@ public class Practice {
 
 
         
+
+
 
 
 
