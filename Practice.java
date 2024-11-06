@@ -303,14 +303,14 @@ public class Practice {
 
 
         // ARRAY LIST    must import ArrayList
-        
+
         // ArrayList<Integer> numbers  = new ArrayList<Integer>();
         // numbers.add(5);
         // numbers.add(4);
         // numbers.add(2);
         // numbers.add(8);
         // numbers.add(7);
-          // numbers.sort(Comparator.naturalOrder());          System.out.println(numbers);
+        // numbers.sort(Comparator.naturalOrder());          System.out.println(numbers);
         
         // System.out.println("Before: "+numbers.toString());
         // numbers.forEach(number -> {
