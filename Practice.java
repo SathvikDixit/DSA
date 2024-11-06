@@ -32,7 +32,7 @@ public class Practice {
 
 
 
-        
+
 
 
         // Arithmetic Operators
@@ -221,6 +221,7 @@ public class Practice {
         // calci.close();
 
 
+
         
 
 
@@ -261,6 +262,7 @@ public class Practice {
 
 
 
+        
 
 
 
