@@ -262,7 +262,7 @@ public class Practice {
 
 
 
-        
+
 
 
 
@@ -303,6 +303,7 @@ public class Practice {
 
 
         // ARRAY LIST    must import ArrayList
+        
         // ArrayList<Integer> numbers  = new ArrayList<Integer>();
         // numbers.add(5);
         // numbers.add(4);
