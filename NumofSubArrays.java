@@ -1,4 +1,3 @@
-
 public class NumOfSubArrays {
     public int numOfSubarrays(int[] arr) {
         long ans = 0;
