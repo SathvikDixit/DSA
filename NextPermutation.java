@@ -34,7 +34,6 @@ class Solution {
         nums[b] = temp;
     }
 
-
     // You can add a main method to test the function
     public static void main(String[] args) {
         Solution solution = new Solution();
