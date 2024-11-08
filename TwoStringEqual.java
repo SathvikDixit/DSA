@@ -1,3 +1,4 @@
+
 class TwoStringEqual {
     public boolean arrayStringsAreEqual(String[] word1, String[] word2) {
         String s1 = makeString(word1);
@@ -31,8 +32,3 @@ class TwoStringEqual {
         System.out.println(solution.arrayStringsAreEqual(word5, word6));
     }
 }
-
-
-
-
-
