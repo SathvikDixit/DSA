@@ -1,4 +1,3 @@
-
 class Solution {
     public void nextPermutation(int[] nums) {
         int i = nums.length - 2;
