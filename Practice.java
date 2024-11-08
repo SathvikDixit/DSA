@@ -324,7 +324,6 @@ public class Practice {
 
 
 
-
         // HASH MAP'S
         // HashMap<String,Integer> examScore = new HashMap<String,Integer>();
         // examScore.put("Kannada", 100);
@@ -342,8 +341,6 @@ public class Practice {
         // System.out.println(examScore.get("Kannada"));
         // System.out.println(examScore.containsKey("Hindi"));
         // System.out.println(examScore.containsValue(Integer.valueOf(100)));
-
-
 
 
 
@@ -368,7 +365,3 @@ public class Practice {
 
     }
 }
-
-
-
-
