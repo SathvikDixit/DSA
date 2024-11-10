@@ -225,9 +225,6 @@ public class Practice {
 
 
 
-
-
-
         // ARRAY'S
         // char vowels[] = {'e','a','o','u','i'};
 
