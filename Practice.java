@@ -371,6 +371,3 @@ public class Practice {
 
     }
 }
-
-
-
