@@ -270,7 +270,7 @@ public class Practice {
 
 
 
-        
+
 
 
         // PRINTING TABLES USING FOR LOOP 
@@ -302,6 +302,11 @@ public class Practice {
 
 
 
+
+
+
+
+        
 
 
         // ARRAY LIST    must import ArrayList
