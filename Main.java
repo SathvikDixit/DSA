@@ -37,14 +37,12 @@ class Candy {
 
 public class Main {
     public static void main(String[] args) {
-        // Creating an instance of the Candy class
         Candy candySolution = new Candy();
         
-        // Example input array representing ratings
         int[] ratings = {1, 0, 2};
         
         int result = candySolution.candy(ratings);
         
-        System.out.println("Total candies: " + result);  // Output will be 5
+        System.out.println("Total candies: " + result);  
     }
 }
