@@ -27,3 +27,12 @@ class Candy {
         return candies;
     }
 }
+
+
+public calss Main {
+    public static void main(String[] args) {
+        Candy solution = new Candy();
+        int[] ratings = {1,0,2};
+        System.out.println(solution.candy(ratings));
+    }
+}
