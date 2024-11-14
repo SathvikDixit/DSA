@@ -50,7 +50,7 @@ public class Practice {
 
 
 
-        
+
 
 
 
@@ -62,6 +62,10 @@ public class Practice {
         // boolean isMember = false;
         // System.out.println(isStudent || isMember); // OR operator
 
+
+
+
+        
 
 
 
