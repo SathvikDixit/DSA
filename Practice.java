@@ -127,10 +127,6 @@ public class Practice {
 
 
 
-
-        
-
-
     // CONDITIONAL STATEMENTS
     //     Scanner calci = new Scanner(System.in);
     //     System.out.print("Enter the first number: ");
