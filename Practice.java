@@ -333,6 +333,12 @@ public class Practice {
 
 
 
+
+
+
+
+        
+
         // HASH MAP'S
         // HashMap<String,Integer> examScore = new HashMap<String,Integer>();
         // examScore.put("Kannada", 100);
