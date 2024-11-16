@@ -189,7 +189,7 @@ public class Practice {
 
 
 
-    
+
 
 
     // SWITCH CASE STATEMENTS
@@ -231,6 +231,12 @@ public class Practice {
 
 
 
+
+
+
+
+
+        
 
         // ARRAY'S
         // char vowels[] = {'e','a','o','u','i'};
