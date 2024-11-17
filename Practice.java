@@ -58,7 +58,7 @@ public class Practice {
 
 
 
-        
+
         // STRING'S
 
         // String name = "Sathvik";
@@ -88,9 +88,6 @@ public class Practice {
         // String naam = "Sathvik VP";
         // System.out.println(naam.replace(" ", " Dixit"));
         // System.out.println(naam.contains("VP"));
-
-
-
 
 
 
