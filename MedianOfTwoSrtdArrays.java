@@ -1,4 +1,5 @@
 
+
 public class MedianOfTwoSrtdArrays {
     public static double median(int[] a, int[] b) {
         int n1 = a.length, n2 = b.length;
@@ -34,5 +35,3 @@ public class MedianOfTwoSrtdArrays {
         System.out.println("The Median of Two Sorted Array's is " + median(a,b));
     }
 }
-
-
