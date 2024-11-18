@@ -1,5 +1,4 @@
 
-
 public class MedianOfTwoSrtdArrays {
     public static double median(int[] a, int[] b) {
         int n1 = a.length, n2 = b.length;
