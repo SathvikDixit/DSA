@@ -28,6 +28,9 @@ public class MedianOfTwoSrtdArrays {
     }
 
     public static void main(String args[]) {
+        int[] a = {1,4,7,10,12};
+        int[] b = {2,3,6,15};
+
         
     }
 }
