@@ -31,7 +31,7 @@ public class MedianOfTwoSrtdArrays {
         int[] a = {1,4,7,10,12};
         int[] b = {2,3,6,15};
 
-        
+        System.out.println("The Median of Two Sorted Array's is " + median(a,b));
     }
 }
 
