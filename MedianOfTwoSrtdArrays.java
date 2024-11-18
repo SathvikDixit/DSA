@@ -26,6 +26,10 @@ public class MedianOfTwoSrtdArrays {
         }
         return 0; //dummy statement
     }
+
+    public static void main(String args[]) {
+        
+    }
 }
 
 
