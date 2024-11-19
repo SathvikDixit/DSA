@@ -20,7 +20,6 @@ public class Permutations {
 
         // Loop through the remaining elements to generate all permutations
         for (int i = index; i < nums.length; i++) {
-            // Swap elements at indices i and index
             swap(i, index, nums);
             // Recur for the next index
             recurPermute(index + 1, nums, ans);
