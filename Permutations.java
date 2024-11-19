@@ -23,7 +23,6 @@ public class Permutations {
             swap(i, index, nums);
             // Recur for the next index
             recurPermute(index + 1, nums, ans);
-            // Backtrack by swapping the elements back to their original positions
             swap(i, index, nums);
         }
     }
