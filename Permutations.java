@@ -46,6 +46,13 @@ public class Permutations {
 
     // Main method for testing
     public static void main(String[] args) {
-        
+        Permutations solution = new Permutations();
+        int[] nums = {1, 2, 3};
+        List<List<Integer>> result = solution.permute(nums);
+
+        // Print the result
+        for (List<Integer> perm : result) {
+            System.out.println(perm);
+        }
     }
 }
