@@ -37,7 +37,7 @@ public class Permutations {
     // Main function to get all permutations of the input array
     public List<List<Integer>> permute(int[] nums) {
         List<List<Integer>> ans = new ArrayList<>();
-        // Call the helper function starting from index 0
+
         recurPermute(0, nums, ans);
         return ans;
     }
