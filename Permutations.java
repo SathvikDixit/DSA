@@ -43,4 +43,9 @@ public class Permutations {
         recurPermute(0, nums, ans);
         return ans;
     }
+
+    // Main method for testing
+    public static void main(String[] args) {
+        
+    }
 }
