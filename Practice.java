@@ -94,6 +94,10 @@ public class Practice {
 
 
 
+        
+
+
+
         // USER INPUT
 
         // Scanner scanner = new Scanner(System.in);
@@ -132,7 +136,7 @@ public class Practice {
 
 
 
-        
+
 
     // CONDITIONAL STATEMENTS
     //     Scanner calci = new Scanner(System.in);
