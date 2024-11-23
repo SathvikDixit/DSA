@@ -230,6 +230,10 @@ public class Practice {
 
 
 
+
+
+        
+
         // ARRAY'S
         // char vowels[] = {'e','a','o','u','i'};
 
@@ -269,7 +273,7 @@ public class Practice {
 
 
 
-        
+
 
         // PRINTING TABLES USING FOR LOOP 
 
