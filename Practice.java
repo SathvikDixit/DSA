@@ -181,9 +181,7 @@ public class Practice {
     //     calci.close();
 
 
-
-
-
+    
 
 
 
@@ -232,7 +230,7 @@ public class Practice {
 
 
 
-        
+
 
         // ARRAY'S
         // char vowels[] = {'e','a','o','u','i'};
