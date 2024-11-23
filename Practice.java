@@ -1,4 +1,3 @@
-
 public class Practice {
     public static void main(String[] args) {
 
@@ -27,6 +26,8 @@ public class Practice {
         // number %= 3;
         // number /= 5;
         // System.out.println(number);
+
+
 
 
 
