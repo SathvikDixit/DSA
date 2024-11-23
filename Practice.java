@@ -66,7 +66,6 @@ public class Practice {
 
 
 
-
         // STRING'S
 
         // String name = "Sathvik";
@@ -96,8 +95,6 @@ public class Practice {
         // String naam = "Sathvik VP";
         // System.out.println(naam.replace(" ", " Dixit"));
         // System.out.println(naam.contains("VP"));
-
-
 
 
 
@@ -145,7 +142,6 @@ public class Practice {
 
 
 
-
     // CONDITIONAL STATEMENTS
     //     Scanner calci = new Scanner(System.in);
     //     System.out.print("Enter the first number: ");
@@ -181,7 +177,7 @@ public class Practice {
     //     calci.close();
 
 
-    
+
 
 
 
