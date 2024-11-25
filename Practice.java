@@ -308,7 +308,6 @@ public class Practice {
 
 
 
-
         // ARRAY LIST    must import ArrayList
 
         // ArrayList<Integer> numbers  = new ArrayList<Integer>();
@@ -324,7 +323,6 @@ public class Practice {
         //     numbers.set(numbers.indexOf(number),number*2);
         // });
         // System.out.println("After: "+numbers.toString());
-
 
 
 
@@ -351,7 +349,7 @@ public class Practice {
 
 
 
-        
+
 
 
 
