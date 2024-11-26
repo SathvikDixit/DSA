@@ -369,7 +369,7 @@ public class Practice {
 
 
 
-        
+
 
 
         // NEW / ENHANCED FOR LOOP
@@ -387,6 +387,7 @@ public class Practice {
         for (int i = 0 ; i<arr.length; i++) {
             System.out.println(i);                     // This prints out the indices of the Array
         }
-
     }
 }
+
+
