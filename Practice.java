@@ -282,7 +282,7 @@ public class Practice {
 
 
 
-        
+
 
         // PRINTING TABLES USING FOR LOOP 
 
@@ -313,6 +313,9 @@ public class Practice {
 
 
 
+
+
+        
 
 
 
