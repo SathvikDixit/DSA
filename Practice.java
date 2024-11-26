@@ -102,7 +102,7 @@ public class Practice {
 
         // String naam = "Sathvik VP";
         // System.out.println(naam.replace(" ", " Dixit"));
-        // System.out.println(naam.contains("VP"));
+        // System.out.println(naam.contains("SD"));
 
 
 
@@ -110,7 +110,7 @@ public class Practice {
 
 
 
-        
+
 
 
 
@@ -144,6 +144,9 @@ public class Practice {
         // String reply = first.nextLine();
         // System.out.printf("get the fcuk out %s ", reply); 
         // first.close();
+
+
+
 
 
 
