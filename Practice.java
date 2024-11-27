@@ -51,12 +51,6 @@ public class Practice {
 
 
 
-
-
-
-
-
-
         // Logical Operator's
 
         // int age = 45;
