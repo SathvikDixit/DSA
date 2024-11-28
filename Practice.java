@@ -114,7 +114,7 @@ public class Practice {
 
 
 
-        
+
 
 
         // USER INPUT
@@ -148,6 +148,12 @@ public class Practice {
         // System.out.printf("get the fcuk out %s ", reply); 
         // first.close();
 
+
+
+
+
+
+        
 
 
 
