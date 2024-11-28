@@ -323,7 +323,7 @@ public class Practice {
 
 
 
-        
+
 
 
 
@@ -342,6 +342,13 @@ public class Practice {
         //     numbers.set(numbers.indexOf(number),number*2);
         // });
         // System.out.println("After: "+numbers.toString());
+
+
+
+
+
+
+
 
 
 
