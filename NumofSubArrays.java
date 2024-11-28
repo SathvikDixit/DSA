@@ -1,3 +1,4 @@
+
 public class NumOfSubArrays {
     public int numOfSubarrays(int[] arr) {
         long ans = 0;
@@ -24,6 +25,3 @@ public class NumOfSubArrays {
         System.out.println(solution.numOfSubarrays(arr)); // Outputs the number of subarrays with an odd sum
     }
 }
-
-
-
