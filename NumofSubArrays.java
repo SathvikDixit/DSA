@@ -24,3 +24,6 @@ public class NumOfSubArrays {
         System.out.println(solution.numOfSubarrays(arr)); // Outputs the number of subarrays with an odd sum
     }
 }
+
+
+
