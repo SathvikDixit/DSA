@@ -32,7 +32,7 @@ public class Practice {
 
 
 
-        
+
 
 
         // Arithmetic Operators
@@ -45,11 +45,6 @@ public class Practice {
         // System.out.println(num1 <= num2);
         // System.out.println(num1 > num2);
         // System.out.println(num1 >= num2);
-
-
-
-
-
 
 
 
