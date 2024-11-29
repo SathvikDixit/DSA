@@ -65,10 +65,6 @@ public class Practice {
 
 
 
-
-
-
-
         // STRING'S
 
         // String name = "Sathvik";
