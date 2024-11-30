@@ -35,6 +35,9 @@ public class Practice {
 
 
 
+        
+
+
         // Arithmetic Operators
 
         // int num1 = 15;
@@ -53,7 +56,7 @@ public class Practice {
 
 
 
-        
+
 
         // Logical Operator's
 
