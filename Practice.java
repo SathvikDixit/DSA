@@ -315,6 +315,9 @@ public class Practice {
 
 
 
+        
+
+
 
 
         // HASH MAP'S
@@ -334,6 +337,11 @@ public class Practice {
         // System.out.println(examScore.get("Kannada"));
         // System.out.println(examScore.containsKey("Hindi"));
         // System.out.println(examScore.containsValue(Integer.valueOf(100)));
+
+
+
+
+
 
 
 
