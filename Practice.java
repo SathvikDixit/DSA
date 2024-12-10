@@ -256,6 +256,11 @@ public class Practice {
 
 
 
+
+        
+
+
+
         // PRINTING TABLES USING FOR LOOP 
 
         // int number = 10;
@@ -285,7 +290,7 @@ public class Practice {
 
 
 
-        
+
 
 
 
