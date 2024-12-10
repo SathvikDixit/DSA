@@ -333,8 +333,6 @@ public class Practice {
 
 
 
-
-
         // NEW / ENHANCED FOR LOOP
 
         int arr[] = new int[4];
