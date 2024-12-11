@@ -172,12 +172,6 @@ public class Practice {
 
 
 
-
-
-
-
-
-
     // SWITCH CASE STATEMENTS
         // Scanner calci = new Scanner(System.in);
         // System.out.print("Enter the first number: ");
