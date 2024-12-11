@@ -342,6 +342,3 @@ public class Practice {
         }
     }
 }
-
-
-
