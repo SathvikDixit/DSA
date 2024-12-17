@@ -303,6 +303,12 @@ public class Practice {
 
 
 
+
+
+        
+
+
+
         // HASH MAP'S
         // HashMap<String,Integer> examScore = new HashMap<String,Integer>();
         // examScore.put("Kannada", 100);
@@ -330,7 +336,7 @@ public class Practice {
 
 
 
-        
+
 
         // NEW / ENHANCED FOR LOOP
         int arr[] = new int[4];
