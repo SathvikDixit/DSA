@@ -403,6 +403,3 @@ public class Practice {
         }
     }
 }
-
-
-
