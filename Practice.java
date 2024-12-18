@@ -31,11 +31,6 @@ public class Practice {
 
 
 
-
-
-
-
-
         // Arithmetic Operators
 
         // int num1 = 15;
