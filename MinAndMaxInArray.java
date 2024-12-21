@@ -20,6 +20,12 @@ public class MinAndMaxInArray {
         return max;
     }
 
+    public static void main (String[] args) {
+        int[] A = {5,7,3,9,2};
+        int N = A.length;
 
+        System.out.println("Minimum Element: " +setmini(A, N));
+        System.out.println("Maximum Element: " +setmax(A, N));
+    }
 
 }
