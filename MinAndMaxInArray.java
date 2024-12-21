@@ -18,8 +18,7 @@ public class MinAndMaxInArray {
             }
         }
         return max;
-    }       // TC = O(N)  |   SC = O(1)
-
+    }      
     public static void main (String[] args) {
         int[] A = {5,7,3,9,2};
         int N = A.length;
@@ -28,3 +27,4 @@ public class MinAndMaxInArray {
         System.out.println("Maximum Element: " +setmax(A,N));
     }
 }
+                    // TC = O(N)  |   SC = O(1)
