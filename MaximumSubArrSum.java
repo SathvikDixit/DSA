@@ -13,7 +13,7 @@ public class MaximumSubArrSum {
                 sum = 0;
             }
         }
-        return maxi;     
+        return maxi;
     }
 
 }
