@@ -18,23 +18,7 @@ public class MinAndMaxInArray {
             }
         }
         return max;
-    }       //Space Complexity is n^2
-
-   /*  public static int asdf (int[] A, int N){
-        int min = Integer.MAX_VALUE;
-        int max = Integer.MIN_VALUE;
-        
-        for (int i = 0; i < N; i++) {
-            if(A[i] < min) {
-                min = A[i];
-            }
-            else if (A[i] > max){
-                max = A[i];
-            }  
-        }
-        return min;
-        // return max;
-    }   */
+    }       // TC = O(N)  |   SC = O(1)
 
     public static void main (String[] args) {
         int[] A = {5,7,3,9,2};
