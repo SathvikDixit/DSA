@@ -1,6 +1,6 @@
 
 public class MinAndMaxInArray {
-   /*  public static int setmini (int[] A, int N) {
+     public static int setmini (int[] A, int N) {
         int mini = Integer.MAX_VALUE;
         for (int i = 0; i < N; i++) {
             if (A[i] < mini){
@@ -18,9 +18,9 @@ public class MinAndMaxInArray {
             }
         }
         return max;
-    } */      //Space Complexity is n^2
+    }       //Space Complexity is n^2
 
-    public static int asdf (int[] A, int N){
+   /*  public static int asdf (int[] A, int N){
         int min = Integer.MAX_VALUE;
         int max = Integer.MIN_VALUE;
         
@@ -34,13 +34,13 @@ public class MinAndMaxInArray {
         }
         return min;
         // return max;
-    }
+    }   */
 
     public static void main (String[] args) {
         int[] A = {5,7,3,9,2};
         int N = A.length;
 
-        System.out.println("Minimum Element: " +asdf(A,N));
-        System.out.println("Maximum Element: " +asdf(A,N));
+        System.out.println("Minimum Element: " +setmini(A, N));
+        System.out.println("Maximum Element: " +setmax(A,N));
     }
 }
