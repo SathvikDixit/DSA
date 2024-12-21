@@ -1,3 +1,3 @@
-public class Max&Min_inArray {
+public class MaxAndMin_inArray {
     
 }
