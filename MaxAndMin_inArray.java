@@ -1,31 +1,51 @@
-public class MaxAndMin_inArray {
-    public static int setmini(int[] A, int N) {
+import java.util.Arrays;
+
+public class MinMaxFinder {
+
+    /**
+     * Finds the minimum element in an array of integers.
+     *
+     * @param A The input array.
+     * @param N The size of the array.
+     * @return The minimum element in the array.
+     */
+    public static int setmini(int[] A, int N)
+    {
         int mini = Integer.MAX_VALUE;
-        for (int i = 0; i <= N; i++){
-            if(A[i] < mini) {
+        for (int i = 0; i < N; i++) {
+            if (A[i] < mini) {
                 mini = A[i];
             }
         }
         return mini;
     }
 
-    public static int setmax (int[] A, int N) {
-        int max = Integer.MIN_VALUE;
+    /**
+     * Finds the maximum element in an array of integers.
+     *
+     * @param A The input array.
+     * @param N The size of the array.
+     * @return The maximum element in the array.
+     */
+    public static int setmaxi(int[] A, int N)
+    {
+        int maxi = Integer.MIN_VALUE;
+
         for (int i = 0; i < N; i++) {
-            if (A[i] > max) {
-                max = A[i];
+            if (A[i] > maxi) {
+                maxi = A[i];
             }
         }
-        return max;
+        return maxi;
     }
 
-    public static void main (String[] args) 
+    public static void main(String[] args)
     {
-        int[] A = {1,2,3,4,5,6};
+        int[] A = { 4, 9, 6, 5, 2, 3 };
         int N = A.length;
-
-        System.out.println("Hello");
-        System.out.println("Minimum Element = " +setmini(A, N));
-        System.out.println("Maximum element = " +setmax(A, N));
+        System.out.println("Minimum element is: "
+                           + setmini(A, N));
+        System.out.println("Maximum element is: "
+                           + setmaxi(A, N));
     }
 }
