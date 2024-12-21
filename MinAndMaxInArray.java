@@ -27,5 +27,4 @@ public class MinAndMaxInArray {
         System.out.println("Minimum Element: " +setmini(A, N));
         System.out.println("Maximum Element: " +setmax(A, N));
     }
-
 }
