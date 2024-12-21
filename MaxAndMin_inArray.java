@@ -11,7 +11,7 @@ public class MaxAndMin_inArray {
 
     public static int setmax (int[] A, int N) {
         int max = Integer.MIN_VALUE;
-        for (int i = 0; i > max; i++) {
+        for (int i = 0; i < N; i++) {
             if (A[i] > max) {
                 max = A[i];
             }
@@ -24,6 +24,7 @@ public class MaxAndMin_inArray {
         int[] A = {1,2,3,4,5,6};
         int N = A.length;
 
+        System.out.println("Hello");
         System.out.println("Minimum Element = " +setmini(A, N));
         System.out.println("Maximum element = " +setmax(A, N));
     }
