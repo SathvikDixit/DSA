@@ -12,5 +12,11 @@ public class ReversingArray {
         arr[i] = temp[i];
     }
 
+    public static void main (String[] args) {
+        int[] arr = { 2 , 4 , 6 , 5 , 8 , 9 };
+        revArray(arr);
 
+        for (int i = 0; i < arr.length; i++)
+        System.out.print(arr[i] + " ");
+    }
 }
