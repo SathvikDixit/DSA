@@ -1,6 +1,3 @@
-
-
-
 import java.util.Arrays;
 
 public class Duplicate {
@@ -21,5 +18,7 @@ public class Duplicate {
         System.out.println(checkDuplicate(arr));
     }
 }
+
+
 
 
