@@ -1,7 +1,6 @@
 import java.util.Arrays;
 public class Duplicate {
     static boolean checkDuplicate (int[] arr) {
-
         int n = arr.length;
 
         Arrays.sort(arr);
