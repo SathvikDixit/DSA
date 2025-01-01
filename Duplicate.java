@@ -17,6 +17,3 @@ public class Duplicate {
         System.out.println(checkDuplicate(arr));
     }
 }
-
-
-
