@@ -1,3 +1,6 @@
+
+
+
 public class ReversingArray {
     static void revArray(int[] arr) {
         int n = arr.length;
@@ -25,4 +28,3 @@ public class ReversingArray {
         System.out.print(arr[i] + " ");
     }
 }
-
