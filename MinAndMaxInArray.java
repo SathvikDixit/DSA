@@ -1,3 +1,14 @@
+
+
+
+
+
+
+
+
+
+
+
 public class MinAndMaxInArray {
      public static int setmini (int[] A, int N) {
         int mini = Integer.MAX_VALUE;
@@ -27,4 +38,3 @@ public class MinAndMaxInArray {
     }
 }
                     // TC = O(N)  |   SC = O(1)
-
