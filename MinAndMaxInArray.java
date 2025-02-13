@@ -34,15 +34,3 @@ public class MinAndMaxInArray {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-                    
