@@ -7,15 +7,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
 public class MaximumSubArrSum {
     static int maxsubarray(int[] arr, int n) {
         int maxi = Integer.MIN_VALUE;
