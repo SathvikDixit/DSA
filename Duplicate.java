@@ -7,13 +7,6 @@
 
 
 
-
-
-
-
-
-
-
 import java.util.Arrays;
 public class Duplicate {
     static boolean checkDuplicate (int[] arr) {
