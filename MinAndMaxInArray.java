@@ -1,3 +1,22 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public class MinAndMaxInArray {
      public static int setmini (int[] A, int N) {
         int mini = Integer.MAX_VALUE;
