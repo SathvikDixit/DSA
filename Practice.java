@@ -339,7 +339,7 @@ public class Practice {
         arr[3] = 7;
 
         for (int n : arr){
-            System.out.println(n);      // This can print only the array elements not theitr index. If you want to print indices you have to use the regular for loop
+            System.out.println(n);      // This can print only the array elements not their index. If you want to print indices you have to use the regular for loop
         }
         System.out.println("\n");
         for (int i = 0 ; i<arr.length; i++) {
