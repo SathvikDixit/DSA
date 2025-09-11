@@ -63,13 +63,3 @@ public class FirstNegNum {
         firstNegtivNum(arr, k);
     }
 }
-
-
-
-
-
-
-
-
-
-
